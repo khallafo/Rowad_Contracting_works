@@ -169,6 +169,9 @@ h6.box-header {
     padding-left: 0px;
     text-align: right!important;
 }
+.tits{
+    font-size: large;
+}
 .projects li.template-bullet:before {
     color: #eb7728;
     padding-left: 15px;
