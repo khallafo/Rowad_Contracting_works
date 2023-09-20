@@ -3517,3 +3517,66 @@ h1 ,h2 , h3 , h4 ,h5 ,h6 , p {
 a{
 color: white;
 }
+
+.image-container {
+	max-width: 100%; /* Ensure images don't exceed their parent container */
+}
+
+/* CSS to create a circular image */
+.circular-image {
+	width: 150px; /* Set the width and height to create a circle */
+	height: 150px;
+	border-radius: 50%; /* Use border-radius to create a circular shape */
+	position: relative;
+    margin-right: 22px; /* Hide the overflowing parts of the image */
+}
+
+/* Optional CSS for styling the image */
+.circular-image img {
+	width: 100%; /* Make the image inside the circle fill the circle */
+	height: auto;
+}
+
+.circular-image {
+	width: 150px; /* Default width for circular images */
+	height: 150px; /* Default height for circular images */
+	border-radius: 50%;
+	
+}
+
+.circular-image img {
+	width: 100%;
+	height: auto;
+}
+
+/* Media Query for screens with a width between 510px and 767.98px */
+@media (min-width: 510px) and (max-width: 767.98px) {
+	.circular-image {
+		width: 100px; /* Adjust the size for this screen width range */
+		height: 100px;
+	}
+}
+
+/* Media Query for screens with a width between 768px and 991.98px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.circular-image {
+		width: 120px; /* Adjust the size for this screen width range */
+		height: 120px;
+	}
+}
+
+/* Media Query for screens with a width between 992px and 1199.98px */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.circular-image {
+		width: 140px; /* Adjust the size for this screen width range */
+		height: 140px;
+	}
+}
+
+/* Media Query for screens with a width of 1200px or larger */
+@media (min-width: 1200px) {
+	.circular-image {
+		width: 150px; /* Reset to the default size for larger screens */
+		height: 150px;
+	}
+}
