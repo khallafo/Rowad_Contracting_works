@@ -3581,11 +3581,11 @@ color: white;
 	}
 }
 
-.field-color{
-	background-color: #e55604;
-}
-
 .contact-details-list li p .em {
 
 	font-size: 15px;
+}
+
+.cols{
+	background-color: #e55604;
 }

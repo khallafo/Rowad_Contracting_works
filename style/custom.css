@@ -1033,3 +1033,7 @@ h6.box-header {
 @media (min-width: 1200px) { 
 
  }
+
+ .cols{
+	background-color: #e55604;
+}
