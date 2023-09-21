@@ -3538,8 +3538,8 @@ color: white;
 }
 
 .circular-image {
-	width: 150px; /* Default width for circular images */
-	height: 150px; /* Default height for circular images */
+	width: 120px; /* Default width for circular images */
+	height: 130px; /* Default height for circular images */
 	border-radius: 50%;
 	
 }
@@ -3552,31 +3552,40 @@ color: white;
 /* Media Query for screens with a width between 510px and 767.98px */
 @media (min-width: 510px) and (max-width: 767.98px) {
 	.circular-image {
-		width: 100px; /* Adjust the size for this screen width range */
-		height: 100px;
+		width: 80px; /* Adjust the size for this screen width range */
+		height: 80px;
 	}
 }
 
 /* Media Query for screens with a width between 768px and 991.98px */
 @media (min-width: 768px) and (max-width: 991.98px) {
 	.circular-image {
-		width: 120px; /* Adjust the size for this screen width range */
-		height: 120px;
+		width: 100px; /* Adjust the size for this screen width range */
+		height: 100px;
 	}
 }
 
 /* Media Query for screens with a width between 992px and 1199.98px */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 	.circular-image {
-		width: 140px; /* Adjust the size for this screen width range */
-		height: 140px;
+		width: 120px; /* Adjust the size for this screen width range */
+		height: 120px;
 	}
 }
 
 /* Media Query for screens with a width of 1200px or larger */
 @media (min-width: 1200px) {
 	.circular-image {
-		width: 150px; /* Reset to the default size for larger screens */
-		height: 150px;
+		width: 130px; /* Reset to the default size for larger screens */
+		height: 130px;
 	}
+}
+
+.field-color{
+	background-color: #e55604;
+}
+
+.contact-details-list li p .em {
+
+	font-size: 15px;
 }
