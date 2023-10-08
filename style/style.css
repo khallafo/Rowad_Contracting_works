@@ -3590,12 +3590,12 @@ color: white;
 		height: 105px;
 		margin-right: 40px;
 	}
+	.contact-details-list li p .em {
+
+		font-size: 15px;
+	}	
 }
 
-.contact-details-list li p .em {
-
-	font-size: 15px;
-}
 
 .cols{
 	background-color: #e55604;
