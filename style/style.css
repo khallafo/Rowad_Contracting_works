@@ -3556,6 +3556,11 @@ color: white;
 		width: 75px; /* Adjust the size for this screen width range */
 		height: 75px;
 	}
+
+	.contact-details-list li p .em {
+
+		font-size: 7px;
+	}
 }
 
 /* Media Query for screens with a width between 768px and 991.98px */
@@ -3571,6 +3576,10 @@ color: white;
 	.circular-image {
 		width: 100px; /* Adjust the size for this screen width range */
 		height: 100px;
+	}
+	.contact-details-list li p .em {
+
+		font-size: 10px;
 	}
 }
 
